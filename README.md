@@ -38,89 +38,90 @@ npm run build
 npm run lint
 ```
 
+
 ### project tree
 
-📦cine-test-hellocse.vue
-┣ 📂.git
-┃
-┣ 📂public
-┃ ┗ 📜favicon.ico
-┣ 📂src
-┃ ┣ 📂assets
-┃ ┃ ┣ 📂images
-┃ ┃ ┃ ┗ 📜avatar.png
-┃ ┃ ┣ 📂style
-┃ ┃ ┃ ┣ 📂themes
-┃ ┃ ┃ ┃ ┣ 📜colors.scss
-┃ ┃ ┃ ┃ ┣ 📜font.scss
-┃ ┃ ┃ ┃ ┗ 📜vuetify.ts
-┃ ┃ ┃ ┗ 📜index.scss
-┃ ┃ ┗ 📜logo.svg
-┃ ┣ 📂libs
-┃ ┃ ┗ 📂utils
-┃ ┃ ┃ ┣ 📜Errors.ts
-┃ ┃ ┃ ┗ 📜Time.ts
-┃ ┣ 📂locales
-┃ ┃ ┣ 📜en.json
-┃ ┃ ┗ 📜fr.json
-┃ ┣ 📂modules
-┃ ┃ ┣ 📂basic
-┃ ┃ ┃ ┗ 📜AButton.vue
-┃ ┃ ┣ 📂comments
-┃ ┃ ┃ ┣ 📂_components
-┃ ┃ ┃ ┃ ┗ 📜MovieCommentCard.vue
-┃ ┃ ┃ ┗ 📂_views
-┃ ┃ ┃ ┃ ┣ 📜MovieComment.vue
-┃ ┃ ┃ ┃ ┗ 📜MovieCommentList.vue
-┃ ┃ ┣ 📂movies
-┃ ┃ ┃ ┣ 📂_components
-┃ ┃ ┃ ┃ ┗ 📜InfiniteScrollButton.vue
-┃ ┃ ┃ ┗ 📂_views
-┃ ┃ ┃ ┃ ┣ 📜MovieDetail.vue
-┃ ┃ ┃ ┃ ┗ 📜MovieList.vue
-┃ ┃ ┣ 📂others
-┃ ┃ ┃ ┣ 📜ACarousel.vue
-┃ ┃ ┃ ┣ 📜ARating.vue
-┃ ┃ ┃ ┗ 📜ATag.vue
-┃ ┃ ┗ 📂shared
-┃ ┃ ┃ ┣ 📂forms
-┃ ┃ ┃ ┃ ┗ 📜AFormInput.vue
-┃ ┃ ┃ ┗ 📂layout
-┃ ┃ ┃ ┃ ┣ 📜ACard.vue
-┃ ┃ ┃ ┃ ┣ 📜AGrid.vue
-┃ ┃ ┃ ┃ ┗ 📜AGridList.vue
-┃ ┣ 📂router
-┃ ┃ ┗ 📜index.ts
-┃ ┣ 📂services
-┃ ┃ ┗ 📜api.ts
-┃ ┣ 📂stores
-┃ ┃ ┣ 📂comments
-┃ ┃ ┃ ┣ 📂models
-┃ ┃ ┃ ┃ ┗ 📜CommentModel.ts
-┃ ┃ ┃ ┗ 📜comments.ts
-┃ ┃ ┣ 📂models
-┃ ┃ ┃ ┣ 📜Director.ts
-┃ ┃ ┃ ┣ 📜Person.ts
-┃ ┃ ┃ ┗ 📜Star.ts
-┃ ┃ ┗ 📂movies
-┃ ┃ ┃ ┣ 📂models
-┃ ┃ ┃ ┃ ┣ 📜GenreModel.ts
-┃ ┃ ┃ ┃ ┗ 📜MovieModel.ts
-┃ ┃ ┃ ┗ 📜movies.ts
-┃ ┣ 📜App.vue
-┃ ┣ 📜i18n.ts
-┃ ┣ 📜main.ts
-┃ ┣ 📜shims-vue.d.ts
-┃ ┗ 📜uuid.d.ts
-┣ 📜.eslintrc.cjs
-┣ 📜.gitignore
-┣ 📜.prettierrc.json
-┣ 📜env.d.ts
-┣ 📜index.html
-┣ 📜package-lock.json
-┣ 📜package.json
-┣ 📜README.md
-┣ 📜tsconfig.app.json
-┣ 📜tsconfig.json
-┣ 📜tsconfig.node.json
-┗ 📜vite.config.ts
+- 📦cine-test-hellocse.vue
+- ┣ 📂.git
+- ┃
+- ┣ 📂public
+- ┃ ┗ 📜favicon.ico
+- ┣ 📂src
+- ┃ ┣ 📂assets
+- ┃ ┃ ┣ 📂images
+- ┃ ┃ ┃ ┗ 📜avatar.png
+- ┃ ┃ ┣ 📂style
+- ┃ ┃ ┃ ┣ 📂themes
+- ┃ ┃ ┃ ┃ ┣ 📜colors.scss
+- ┃ ┃ ┃ ┃ ┣ 📜font.scss
+- ┃ ┃ ┃ ┃ ┗ 📜vuetify.ts
+- ┃ ┃ ┃ ┗ 📜index.scss
+- ┃ ┃ ┗ 📜logo.svg
+- ┃ ┣ 📂libs
+- ┃ ┃ ┗ 📂utils
+- ┃ ┃ ┃ ┣ 📜Errors.ts
+- ┃ ┃ ┃ ┗ 📜Time.ts
+- ┃ ┣ 📂locales
+- ┃ ┃ ┣ 📜en.json
+- ┃ ┃ ┗ 📜fr.json
+- ┃ ┣ 📂modules
+- ┃ ┃ ┣ 📂basic
+- ┃ ┃ ┃ ┗ 📜AButton.vue
+- ┃ ┃ ┣ 📂comments
+- ┃ ┃ ┃ ┣ 📂_components
+- ┃ ┃ ┃ ┃ ┗ 📜MovieCommentCard.vue
+- ┃ ┃ ┃ ┗ 📂_views
+- ┃ ┃ ┃ ┃ ┣ 📜MovieComment.vue
+- ┃ ┃ ┃ ┃ ┗ 📜MovieCommentList.vue
+- ┃ ┃ ┣ 📂movies
+- ┃ ┃ ┃ ┣ 📂_components
+- ┃ ┃ ┃ ┃ ┗ 📜InfiniteScrollButton.vue
+- ┃ ┃ ┃ ┗ 📂_views
+- ┃ ┃ ┃ ┃ ┣ 📜MovieDetail.vue
+- ┃ ┃ ┃ ┃ ┗ 📜MovieList.vue
+- ┃ ┃ ┣ 📂others
+- ┃ ┃ ┃ ┣ 📜ACarousel.vue
+- ┃ ┃ ┃ ┣ 📜ARating.vue
+- ┃ ┃ ┃ ┗ 📜ATag.vue
+- ┃ ┃ ┗ 📂shared
+- ┃ ┃ ┃ ┣ 📂forms
+- ┃ ┃ ┃ ┃ ┗ 📜AFormInput.vue
+- ┃ ┃ ┃ ┗ 📂layout
+- ┃ ┃ ┃ ┃ ┣ 📜ACard.vue
+- ┃ ┃ ┃ ┃ ┣ 📜AGrid.vue
+- ┃ ┃ ┃ ┃ ┗ 📜AGridList.vue
+- ┃ ┣ 📂router
+- ┃ ┃ ┗ 📜index.ts
+- ┃ ┣ 📂services
+- ┃ ┃ ┗ 📜api.ts
+- ┃ ┣ 📂stores
+- ┃ ┃ ┣ 📂comments
+- ┃ ┃ ┃ ┣ 📂models
+- ┃ ┃ ┃ ┃ ┗ 📜CommentModel.ts
+- ┃ ┃ ┃ ┗ 📜comments.ts
+- ┃ ┃ ┣ 📂models
+- ┃ ┃ ┃ ┣ 📜Director.ts
+- ┃ ┃ ┃ ┣ 📜Person.ts
+- ┃ ┃ ┃ ┗ 📜Star.ts
+- ┃ ┃ ┗ 📂movies
+- ┃ ┃ ┃ ┣ 📂models
+- ┃ ┃ ┃ ┃ ┣ 📜GenreModel.ts
+- ┃ ┃ ┃ ┃ ┗ 📜MovieModel.ts
+- ┃ ┃ ┃ ┗ 📜movies.ts
+- ┃ ┣ 📜App.vue
+- ┃ ┣ 📜i18n.ts
+- ┃ ┣ 📜main.ts
+- ┃ ┣ 📜shims-vue.d.ts
+- ┃ ┗ 📜uuid.d.ts
+- ┣ 📜.eslintrc.cjs
+- ┣ 📜.gitignore
+- ┣ 📜.prettierrc.json
+- ┣ 📜env.d.ts
+- ┣ 📜index.html
+- ┣ 📜package-lock.json
+- ┣ 📜package.json
+- ┣ 📜README.md
+- ┣ 📜tsconfig.app.json
+- ┣ 📜tsconfig.json
+- ┣ 📜tsconfig.node.json
+- ┗ 📜vite.config.ts
